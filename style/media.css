@@ -1,0 +1,304 @@
+@media(max-width:1320px) {
+    .amazon__text {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:1203px) {
+    .furniture__item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .furniture__info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media(max-width:1180px){
+    .clients__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .clients__item{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media(max-width:1145px) {
+    .amazon__text {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1130px) {
+    .amazon__item {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .amazon__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .amazon__banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .amazon__content {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .service__item {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .service__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .service__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:870px){
+    .footer__content{
+        flex-wrap: wrap;
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer__internet{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:810px) {
+    .furniture__list {
+        position: fixed;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: flex-end;
+        backdrop-filter: blur(15px);
+        bottom: 0;
+        padding: 30px;
+        box-shadow: -5px -2px 15px rgb(0 0 0 / 47%);
+        transform: translateY(-110%);
+        transition: 0.3s linear;
+        z-index: 999;
+    }
+
+    .menu__item-btn {
+        display: block;
+        background: #373737;
+        border-radius: 5px;
+        color: #FFFFFF;
+        padding: 10px 12px;
+    }
+
+    .menu__item-btn:focus+.furniture__list {
+        transform: translateX(0);
+    }
+    .furniture__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .furniture__label{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media(max-width:730px) {
+    .nav__list {
+        position: fixed;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: flex-end;
+        backdrop-filter: blur(15px);
+        bottom: 0;
+        padding: 30px;
+        box-shadow: -5px -2px 15px rgb(0 0 0 / 47%);
+        transform: translateY(-110%);
+        transition: 0.3s linear;
+        z-index: 999;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .menu-btn:focus+.nav__list {
+        transform: translateX(0);
+    }
+}
+
+@media(max-width:692px) {
+    .header__banner {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:630px) {
+    .amazon__img {
+        max-width: 600px;
+        width: 100%;
+    }
+}
+@media(max-width:580px){
+    .clients__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .clients__banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:540px) {
+    .header__title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .amazon__text {
+        font-size: 12px;
+    }
+
+    .amazon__banner {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:486px) {
+    .header__title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+}
+
+@media(max-width:450px) {
+    .amazon__text {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:433px) {
+    .header__title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .header__text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+@media(max-width:400px){
+    .clients__text{
+        font-size: 16px;
+    }
+    .clients__txt{
+        font-size: 11px;
+        text-align: center;
+    }
+    .clients__title{
+        font-size: 25px;
+        line-height: 26px;
+    }
+    .clients__info{
+        max-width: max-content;
+        width: 100%;
+        height: max-content;
+        padding: 12px;
+    }
+}
+@media(max-width:380px) {
+    .service__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service__text {
+        font-size: 16px;
+    }
+    .furniture__text{
+        font-size: 18px;
+    }
+
+    .service__title {
+        font-size: 26px;
+    }
+}
+
+@media(max-width:353px) {
+    .header__title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .header__text {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+@media(max-width:340px){
+    .furniture__label{
+        width: 220px;
+    }
+    .furniture__input{
+        font-size: 16px;
+    }
+    .furniture__search{
+        padding: 10.5px;
+    }
+    .furniture__text{
+        font-size: 16px;
+    }
+}
